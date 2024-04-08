@@ -4,7 +4,7 @@ steps:
     #!/usr/bin/env bash
 
     echo "-==Change the working directory ==-"
-    cd  terraform/
+    cd  terraform-vm-vpc/
 
     wget -cO - https://releases.hashicorp.com/terraform/1.5.1/terraform_1.5.1_linux_amd64.zip > terraform.zip
     unzip terraform.zip
